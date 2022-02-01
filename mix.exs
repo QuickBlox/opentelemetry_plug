@@ -26,7 +26,7 @@ defmodule OpentelemetryPlug.MixProject do
       {:opentelemetry, "~> 1.0.0", only: :test},
       {:plug, ">= 1.10.1"},
       {:plug_cowboy, "~> 2.2", only: :test, runtime: false},
-      {:telemetry, "~> 0.4"}
+      {:telemetry, "~> 0.4 or ~> 1.0"}
     ]
   end
 end
